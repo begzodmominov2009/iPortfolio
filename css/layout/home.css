@@ -1,0 +1,557 @@
+main {
+    margin-left: 300px;
+}
+
+#home {
+    background-image: url("https://cdn.pixabay.com/photo/2024/01/16/10/50/computer-programmer-8511924_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.home__title {
+    color: white;
+    font-size: 38px;
+}
+
+.home__description {
+    color: white;
+    font-size: 28px;
+}
+
+#about {
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
+.about__title {
+    font-size: 32px;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #2DA5F3;
+}
+
+.about__description {
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 28px;
+}
+
+.about__content {
+    display: flex;
+    gap: 200px;
+}
+
+.about__content2 {
+    margin-top: 30px;
+
+}
+
+.about__contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 35px;
+}
+
+.about__subtitle {
+    font-size: 32px;
+}
+
+.about__none {
+    padding-top: 60px;
+}
+
+.about__description2 {
+    line-height: 23px;
+    padding-top: 25px;
+}
+
+.about__support {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    align-items: center;
+    gap: 10px;
+}
+
+.about__statistic b {
+    font-size: 28px;
+}
+
+.about__statistic svg {
+    transition: 0.5s;
+}
+
+.about__statistic p {
+    font-size: 12px;
+    padding-left: 17px;
+}
+
+.about__statistic:hover svg {
+    fill: #2DA5F3;
+}
+
+.about__statistic2 b {
+    font-size: 28px;
+}
+
+.about__statistic2 svg {
+    transition: 0.5s;
+}
+
+.about__statistic2 p {
+    font-size: 12px;
+    padding-left: 17px;
+}
+
+.about__statistic2:hover svg {
+    fill: #2DA5F3;
+}
+
+.about__statistic3 b {
+    font-size: 28px;
+}
+
+.about__statistic3 svg {
+    transition: 0.5s;
+}
+
+.about__statistic3 p {
+    font-size: 12px;
+    padding-left: 17px;
+}
+
+.about__statistic3:hover svg {
+    fill: #2DA5F3;
+}
+
+.about__statistic4 b {
+    font-size: 28px;
+}
+
+.about__statistic4 svg {
+    transition: 0.5s;
+}
+
+.about__statistic4 p {
+    font-size: 12px;
+    padding-left: 17px;
+}
+
+.about__statistic4:hover svg {
+    fill: #2DA5F3;
+}
+
+#services {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 140px;
+    padding-bottom: 110px;
+}
+
+.services__title {
+    font-size: 32px;
+    border-bottom: 3px solid #2DA5F3;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.services__contact {
+    line-height: 24px;
+    display: flex;
+    gap: 15px;
+}
+
+.servies__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.services__contact svg {
+    background-color: transparent;
+    border: 1px solid #2DA5F3;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    padding: 9px;
+    fill: #2DA5F3;
+    transition: 0.7s;
+}
+
+.services__description {
+    font-size: 20px;
+    font-weight: 15544px;
+    transition: 0.5s;
+}
+
+.services__description2 {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.services__contact:hover .services__description {
+    color: var(--blue-color);
+}
+
+.services__contact:hover svg {
+    background-color: #2DA5F3;
+    fill: white;
+}
+
+.services__description3 {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+#port {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 120px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-color: azure;
+}
+
+.port__title {
+    font-size: 32px;
+    border-bottom: 3px solid #2DA5F3;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.port__description {
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.port__card {
+    width: 500px;
+    position: relative;
+    margin-top: 50px;
+    border: none;
+    overflow: hidden;
+
+}
+
+.port__img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.port__svg {
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    opacity: 0;
+    transition: 0.5s;
+    width: 48px;
+    height: 40px;
+    background-color: var(--blue-color);
+    border-radius: 100px;
+    fill: white;
+    cursor: pointer;
+}
+
+.port__card:hover .port__svg {
+    opacity: 1;
+}
+
+.port__card:hover .port__img {
+    transform: scale(0.9);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: o;
+    background-color: rgba(128, 128, 128, 0.299);
+    width: 100%;
+    height: 100%;
+    color: white;
+    transform: translateY(-100%);
+    transition: 0.3s;
+    padding-top: 170px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.port__card:hover .overlay {
+    transform: translateY(0px);
+    transform: scale(0.9);
+}
+
+.port__cards {
+    display: flex;
+    gap: 15px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: o;
+    background-color: rgba(128, 128, 128, 0.299);
+    width: 100%;
+    height: 100%;
+    color: white;
+    transform: translateY(-100%);
+    transition: 0.3s;
+    padding-top: 170px;
+    padding-left: 170px;
+    font-size: 20px;
+}
+
+.port__card:hover .overlay2 {
+    transform: translateY(0px);
+    transform: scale(0.9);
+}
+
+.port__svg2 {
+    position: absolute;
+    top: 100px;
+    right: 230px;
+    opacity: 0;
+    transition: 0.5s;
+    width: 48px;
+    height: 40px;
+    background-color: var(--blue-color);
+    border-radius: 100px;
+    fill: white;
+    cursor: pointer;
+}
+
+.port__card:hover .port__svg2 {
+    opacity: 1;
+}
+
+.port__card:hover .port__img2 {
+    transform: scale(0.9);
+}
+
+.port__img2 {
+    width: 100%;
+    transition: 0.5s;
+}
+
+#test {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: azure;
+    padding-bottom: 80px;
+}
+
+.test__title {
+    font-size: 32px;
+    padding-top: 80px;
+    border-bottom: 3px solid #2DA5F3;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.test__description {
+    padding-top: 20px;
+}
+
+.test__card {
+    width: 330px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+}
+
+.test__cards {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.test__card p {
+    line-height: 24px;
+    color: gray;
+}
+
+.test__account img {
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+}
+
+.test__account {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.test__account__nme {
+    padding-top: 5px;
+    font-size: 14px;
+    margin-left: -20px;
+}
+
+.test__account__job {
+    font-size: 12px;
+    padding-top: 5px;
+    margin-left: -15px;
+}
+
+.test__accounts {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact {
+    background-color: whitesmoke;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact__cards {
+    display: flex;
+    gap: 30px;
+}
+
+.contact__title {
+    font-size: 32px;
+    border-bottom: 3px solid #2DA5F3;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contact__description {
+    padding-top: 20px;
+}
+
+.contact__card {
+    width: 500px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.contact__card__map {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.contact__card__description {
+    font-size: 12px;
+    padding-left: 75px;
+}
+
+.contact__card svg {
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+    padding: 4px;
+    background-color: rgb(233, 240, 240);
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+.contact__content:hover svg {
+    background-color: #2DA5F3;
+    fill: white;
+}
+
+.contact__mps {
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact__card2 {
+    margin-top: 50px;
+    width: 650px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.contact2__lable2 {
+    padding-left: 240px;
+    font-size: 14px;
+
+}
+
+.contact2__lable {
+    font-size: 14px;
+}
+
+.contact__card2__email {
+    margin-left: 40px;
+    width: 280px;
+    height: 40px;
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid rgb(200, 197, 197);
+    padding-left: 10px;
+}
+
+.contact__card2__input {
+    width: 280px;
+    height: 40px;
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid rgb(200, 197, 197);
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.contact__card2__subject {
+    width: 605px;
+    margin-top: 10px;
+    height: 40px;
+    outline: none;
+    border: 2px solid rgb(200, 197, 197);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.contact__card2__lable{
+    font-size: 14px;
+}
+.contact__card2__area{
+    width: 605px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid rgb(200, 197, 197);
+}
+.contact__card2__lable2{
+    font-size: 14px;
+}
+.contact__card2__button{
+    width: 155px;
+    height: 48px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid var(--blue-color);
+    background-color: transparent;
+    margin-left: 230px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+.contact__card2__button a{
+    color: var(--blue-color);
+}
+.contact__card2__button:hover{
+    background-color: var(--blue-color);
+    border: none;
+    outline: none;
+}
+.contact__card2__button:hover a{
+    color: white;
+}

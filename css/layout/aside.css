@@ -1,0 +1,210 @@
+aside {
+    background-color: #5d6b90;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: o;
+    
+}
+
+.sidebar__profile__img {
+    width: 120px;
+    border-radius: 500px;
+    border: 5px solid rgba(203, 28, 185, 0.904);
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.sidebar__profile h1 {
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.sidebar__profile__logo {
+    width: 30px;
+    border-radius: 500px;
+}
+
+.sidebar__profile__logo2 {
+    width: 30px;
+    border-radius: 500px;
+    height: 30px;
+}
+
+.sidebar__profile__logo3 {
+    width: 30px;
+    border-radius: 50px;
+    padding: 8;
+}
+
+.sidebar__profile__contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.sidebar__profile__content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 0px;
+    transition: 0.5s;
+}
+
+.sidebar__profile__content svg {
+    transition: 0.5s;
+}
+
+.sidebar__profile__content:hover svg {
+    fill: #2DA5F3;
+}
+
+.sidebar__profile__content:hover {
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.sidebar__profile__content2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar__profile__content2 svg {
+    transition: 0.5s;
+}
+
+.sidebar__profile__content2:hover svg {
+    fill: #2DA5F3;
+}
+
+.sidebar__profile__content2:hover {
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.sidebar__profile__content3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar__profile__content3 svg {
+    transition: 0.5s;
+}
+
+.sidebar__profile__content3:hover svg {
+    fill: #2DA5F3;
+}
+
+.sidebar__profile__content3:hover {
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.sidebar__profile__content4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar__profile__content4svg {
+    transition: 1s;
+}
+
+.sidebar__profile__content4:hover svg {
+    fill: #2DA5F3;
+}
+
+.sidebar__profile__content4:hover {
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.sidebar__profile__content5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar__profile__content5 svg {
+    transition: 1s;
+}
+
+.sidebar__profile__content5:hover svg {
+    fill: #2DA5F3;
+}
+
+.sidebar__profile__content5:hover {
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.sidebar__profile__content6 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar__profile__content6 svg {
+    transition: 1s;
+}
+
+.sidebar__profile__content6:hover svg {
+    fill: #2DA5F3;
+}
+
+.sidebar__profile__content6:hover select {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.sidebar__profile__content7 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar__profile__content7 svg {
+    transition: 1s;
+}
+
+.sidebar__profile__content7:hover svg {
+    fill: #2DA5F3;
+}
+
+.sidebar__profile__content7:hover {
+    font-size: 17px;
+    color: aliceblue;
+}
+
+
+
+.sidebar__profile__menus {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+.sidebar__profile__menus li a {
+    color: #dfdadadb;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #dfdadadb;
+    transition: 0.7s;
+}
+
+.sidebar__profile__menus select option {
+    background-color: #5d6b90;
+}
